@@ -23,3 +23,6 @@ Example(Input --> Output)
 
 ["hay", "junk", "hay", "hay", "moreJunk", "needle", "randomJunk"] --> "found the needle at position 5" 
 Note: In COBOL, it should return "found the needle at position 6"
+
+3. Convert Boolean Values to "Yes" or "No"
+Complete the method that takes a boolean value and return a "Yes" string for true, or a "No" string for false.

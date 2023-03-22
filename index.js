@@ -9,4 +9,9 @@ function findNeedle(haystack) {
     return `found the needle at position ${index}`
   }
 
-//   3.
+//   3. Convert Boolean Values to "Yes" or "No"
+function boolToWord( bool ){
+    return (bool === true ? "Yes" : "No")
+  }
+
+// This can acutally be shortened to return (bool ? "Yes" : "No") as the question of true is implicit

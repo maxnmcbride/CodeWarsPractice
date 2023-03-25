@@ -52,7 +52,28 @@ const rps = (p1, p2) => {
       return str.toUpperCase()
     }
 
+    // 9. Thinkful Logic Drills - Traffic Lights
+    function updateLight(current) {
+  
+      //your code here!
+      if (current === "green"){
+        return "yellow"
+      } else if (current === "yellow"){
+        return "red"
+      } else if (current === "red"){
+        return "green"
+      }
     
+    }
+
+    // 10. Convert a number to a string
+    function numberToString(num) {
+      return num.toString()
+    }
+
+    
+
+
 
 
 

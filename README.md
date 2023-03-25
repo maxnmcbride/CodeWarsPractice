@@ -59,3 +59,20 @@ Sure, this is about as easy as it gets. But how clever can you be to create the 
 
 8. MakeUpperCase
 Write a function which converts the input string to uppercase.
+
+9. Thinkful Logic Drills - Traffic Lights
+You're writing code to control your town's traffic lights. You need a function to handle each change from green, to yellow, to red, and then to green again.
+
+Complete the function that takes a string as an argument representing the current state of the light and returns a string representing the state the light should change to.
+
+For example, when the input is green, output should be yellow.
+
+10. Convert a Number to a String
+We need a function that can transform a number (integer) into a string.
+
+What ways of achieving this do you know?
+
+Examples (input --> output):
+123  --> "123"
+999  --> "999"
+-100 --> "-100"

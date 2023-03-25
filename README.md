@@ -43,3 +43,16 @@ Examples(Input1, Input2 --> Output):
 "scissors", "paper" --> "Player 1 won!"
 "scissors", "rock" --> "Player 2 won!"
 "paper", "paper" --> "Draw!"
+
+6. String Repeat
+Write a function that accepts an integer n and a string s as parameters, and returns a string of s repeated exactly n times.
+
+Examples (input -> output)
+6, "I"     -> "IIIIII"
+5, "Hello" -> "HelloHelloHelloHelloHello"
+
+7.Function 1 - Hello World
+Make a simple function called greet that returns the most-famous "hello world!".
+
+Style Points
+Sure, this is about as easy as it gets. But how clever can you be to create the most creative "hello world" you can think of? What is a "hello world" solution you would want to show your friends?

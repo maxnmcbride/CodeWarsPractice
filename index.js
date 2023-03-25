@@ -39,4 +39,13 @@ const rps = (p1, p2) => {
      }
     };
 
+    // 6. String Repeat
+    function repeatStr (n, s) {
+      return s.repeat(n);
+    }
+
+    // 7. Function 1 - Hello World
+    const greet = () => "hello world!";
+
+
 

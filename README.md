@@ -34,3 +34,12 @@ For example (Input -> Output):
 
 2 -> 3 (1 + 2)
 8 -> 36 (1 + 2 + 3 + 4 + 5 + 6 + 7 + 8)
+
+5. Rock Paper Scissors
+Let's play! You have to return which player won! In case of a draw return Draw!.
+
+Examples(Input1, Input2 --> Output):
+
+"scissors", "paper" --> "Player 1 won!"
+"scissors", "rock" --> "Player 2 won!"
+"paper", "paper" --> "Draw!"

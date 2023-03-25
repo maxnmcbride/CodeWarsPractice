@@ -47,5 +47,12 @@ const rps = (p1, p2) => {
     // 7. Function 1 - Hello World
     const greet = () => "hello world!";
 
+    // 8. MakeUpperCase
+    function makeUpperCase(str) {
+      return str.toUpperCase()
+    }
+
+    
+
 
 

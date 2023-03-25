@@ -15,3 +15,13 @@ function boolToWord( bool ){
   }
 
 // This can acutally be shortened to return (bool ? "Yes" : "No") as the question of true is implicit
+
+// 4. Summation
+var summation = function (num) {
+  // Code here
+  let sum = 0;
+  for (i = 1; i <= num; i++){
+    sum += i};
+  return sum
+}
+

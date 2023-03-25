@@ -26,3 +26,11 @@ Note: In COBOL, it should return "found the needle at position 6"
 
 3. Convert Boolean Values to "Yes" or "No"
 Complete the method that takes a boolean value and return a "Yes" string for true, or a "No" string for false.
+
+4.Summation
+Write a program that finds the summation of every number from 1 to num. The number will always be a positive integer greater than 0.
+
+For example (Input -> Output):
+
+2 -> 3 (1 + 2)
+8 -> 36 (1 + 2 + 3 + 4 + 5 + 6 + 7 + 8)

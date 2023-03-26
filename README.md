@@ -76,3 +76,24 @@ Examples (input --> output):
 123  --> "123"
 999  --> "999"
 -100 --> "-100"
+
+11. You Can't Code Under Pressure
+Code as fast as you can! You need to double the integer and return it.
+
+12. How good are you really?
+There was a test in your class and you passed it. Congratulations!
+But you're an ambitious person. You want to know if you're better than the average student in your class.
+
+You receive an array with your peers' test scores. Now calculate the average and compare your score!
+
+Return True if you're better, else False!
+
+Note:
+Your points are not included in the array of your class's points. For calculating the average point you may add your point to the given array!
+
+13. You Only Need One - Beginner
+You will be given an array a and a value x. All you need to do is check whether the provided array contains the value.
+
+Array can contain numbers or strings. X can be either.
+
+Return true if the array contains the value, false if not.

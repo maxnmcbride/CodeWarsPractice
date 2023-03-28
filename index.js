@@ -100,14 +100,22 @@ function lovefunc(flower1, flower2){
 
 // 15. Calculate Average
 function findAverage(array) {
-  let average = array.reduce((a, b) => a + b)/array.length;
-  if (array.length > 0){
-    return average;
-  }else{
-     return 0; 
+  if (array.length === 0) {
+    return 0;
+  } else {
+    const sum = array.reduce((total, num) => total + num);
+    return sum / array.length;
   }
 }
 
+// 16. Reversed Sequence
+const reverseSeq = n => {
+  let arr = [];
+  for (let i = n; i >= 1; i--) {
+    arr.push(i);
+  }
+  return arr;
+}
 
 
 

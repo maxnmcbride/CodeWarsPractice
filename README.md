@@ -107,3 +107,8 @@ Write a function that will take the number of petals of each flower and return t
 Write a function which calculates the average of the numbers in a given list.
 
 Note: Empty arrays should return 0.
+
+16. Reversed Sequence
+Build a function that returns an array of integers from n to 1 where n>0.
+
+Example : n=5 --> [5,4,3,2,1]

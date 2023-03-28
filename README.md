@@ -97,3 +97,13 @@ You will be given an array a and a value x. All you need to do is check whether 
 Array can contain numbers or strings. X can be either.
 
 Return true if the array contains the value, false if not.
+
+14. Opposites Attract
+Timmy & Sarah think they are in love, but around where they live, they will only know once they pick a flower each. If one of the flowers has an even number of petals and the other has an odd number of petals it means they are in love.
+
+Write a function that will take the number of petals of each flower and return true if they are in love and false if they aren't.
+
+15. Calculate Average
+Write a function which calculates the average of the numbers in a given list.
+
+Note: Empty arrays should return 0.

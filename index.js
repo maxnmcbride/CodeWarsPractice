@@ -88,6 +88,26 @@ function check(a, x) {
   return (a.includes(x)? true : false)
 }
 
+// 14. Opposites Attract
+function lovefunc(flower1, flower2){
+  let petals1 = (flower1 % 2 == 0);
+  let petals2 = (flower2 % 2 ==0);
+  return (petals1 !== petals2 ? true : false)
+}
+
+// function lovefunc(flower1, flower2) {
+// return flower1 % 2 !== flower2 % 2; }
+
+// 15. Calculate Average
+function findAverage(array) {
+  let average = array.reduce((a, b) => a + b)/array.length;
+  if (array.length > 0){
+    return average;
+  }else{
+     return 0; 
+  }
+}
+
 
 
 

@@ -122,8 +122,10 @@ function makeNegative(num) {
   return (num <= 0 ? num : num * -1)
 }
 
-// 18. Number of People in the Bus
-
+// 18. Opposite Number
+function opposite(number) {
+  return(number * -1);
+}
 
 
 

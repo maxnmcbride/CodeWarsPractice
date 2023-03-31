@@ -74,24 +74,24 @@ function numberToString(num) {
 
 // 11. You Can't Code Under Pressure
 function doubleInteger(i) {
-  return i*2;
+  return i * 2;
 }
 
 // 12. How Good Are You Really?
 function betterThanAverage(classPoints, yourPoints) {
-  let average = (classPoints.reduce((prev, curr) => prev + curr)/ (classPoints.length))
+  let average = (classPoints.reduce((prev, curr) => prev + curr) / (classPoints.length))
   return (yourPoints > average ? true : false)
 }
 
 // 13. You Only Need One - Beginner
 function check(a, x) {
-  return (a.includes(x)? true : false)
+  return (a.includes(x) ? true : false)
 }
 
 // 14. Opposites Attract
-function lovefunc(flower1, flower2){
+function lovefunc(flower1, flower2) {
   let petals1 = (flower1 % 2 == 0);
-  let petals2 = (flower2 % 2 ==0);
+  let petals2 = (flower2 % 2 == 0);
   return (petals1 !== petals2 ? true : false)
 }
 
@@ -116,6 +116,13 @@ const reverseSeq = n => {
   }
   return arr;
 }
+
+// 17. Return Negative
+function makeNegative(num) {
+  return (num <= 0 ? num : num * -1)
+}
+
+// 18. Number of People in the Bus
 
 
 

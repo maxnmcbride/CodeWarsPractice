@@ -1,4 +1,6 @@
-This is a repository where I will be keeping track of different CodeWar challenges and the solutions I have come up with to solve for each challenge. I am currently testing my abilities in the JavaScript section and studying under the most basic level.
+This is a repository where I will be keeping track of different CodeWar challenges and the solutions I have come up with to solve for each challenge. I am currently testing my abilities in the JavaScript and Ruby sections, studying at the most basic level.
+
+JavaScript
 
 1.Invert values
 
@@ -143,6 +145,15 @@ Given a non-empty array of integers, return the result of multiplying the values
 
 20. Simple multiplication
 This kata is about multiplying a given number by eight if it is an even number and by nine otherwise.
+
+_________________________________________
+Ruby
+
+1. Detect Pangram
+
+A pangram is a sentence that contains every single letter of the alphabet at least once. For example, the sentence "The quick brown fox jumps over the lazy dog" is a pangram, because it uses the letters A-Z at least once (case is irrelevant).
+
+Given a string, detect whether or not it is a pangram. Return True if it is, False if not. Ignore numbers and punctuation.
 
 
 

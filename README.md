@@ -135,5 +135,16 @@ In this simple assignment you are given a number and have to make it negative. B
 
 Very simple, given an integer or a floating-point number, find its opposite.
 
+19. Beginner - Reduce but Grow
+
+Given a non-empty array of integers, return the result of multiplying the values together in order. Example:
+
+[1, 2, 3, 4] => 1 * 2 * 3 * 4 = 24
+
+20. Simple multiplication
+This kata is about multiplying a given number by eight if it is an even number and by nine otherwise.
+
+
+
 
 

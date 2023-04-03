@@ -12,3 +12,12 @@ def paperwork(n, m)
   return 0 if n < 0 || m < 0
   n * m
 end
+
+# 3.Find Maximum and Minimum Values of a List
+def min(list)
+  list.min()
+end
+
+def max(list)
+  list.max()
+end

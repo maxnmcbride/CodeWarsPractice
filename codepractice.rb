@@ -21,3 +21,13 @@ end
 def max(list)
   list.max()
 end
+
+# 4. Abbreviate a Two Word Name
+def abbrev_name(name)
+  name.split.map {|word| word[0].upcase()}.join('.')
+end
+
+# split turns the string into an array
+# then the map method is run over the new array to create a new array of just the 
+# first elements in each component of the array [0] to upcase
+# then the join method returns the elements of the array as a string with '.'

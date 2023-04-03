@@ -175,7 +175,17 @@ Examples (Input -> Output)
 * [42, 54, 65, 87, 0]             -> min = 0, max = 87
 * [5]                             -> min = 5, max = 5
 
+4. Abbreviate a Two Word Name
 
+Write a function to convert a name into initials. This kata strictly takes two words with one space in between them.
+
+The output should be two capital letters with a dot separating them.
+
+It should look like this:
+
+Sam Harris => S.H
+
+patrick feeney => P.F
 
 
 

@@ -7,3 +7,8 @@ end
 # the block takes in |x| which is the current variable being checked from our .all? statement, then
 # .downcases the string and asking if it includes x
 
+# 2.Beginner Series #1 School Paperwork
+def paperwork(n, m)
+  return 0 if n < 0 || m < 0
+  n * m
+end

@@ -31,3 +31,13 @@ end
 # then the map method is run over the new array to create a new array of just the 
 # first elements in each component of the array [0] to upcase
 # then the join method returns the elements of the array as a string with '.'
+
+# 5. Sum Mixed Array
+def sum_mix(x)
+  x.map{|num| num.to_i}.sum
+end
+
+# A more sleek method would be to 
+# def sum_mix(x)
+#   x.map(&:to_i).sum
+# end

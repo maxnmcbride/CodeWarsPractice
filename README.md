@@ -193,5 +193,8 @@ Given an array of integers as strings and numbers, return the sum of the array v
 
 Return your answer as a number.
 
+6. Even or Odd
+
+Create a function that takes an integer as an argument and returns "Even" for even numbers or "Odd" for odd numbers.
 
 

@@ -41,3 +41,11 @@ end
 # def sum_mix(x)
 #   x.map(&:to_i).sum
 # end
+
+# 6. Even or Odd
+def even_or_odd(number)
+  number % 2 === 0 ? "Even" : "Odd"
+end
+
+# however in Ruby its possible just to ask number.even?
+

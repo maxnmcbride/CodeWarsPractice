@@ -63,6 +63,10 @@ end
 
 # or value1.method(operator).(value2) or value1.send(operator, value2)
 
+# 9.Convert a string to an array
+def string_to_array(string)
+  string.split.to_a
+end
 
 
 

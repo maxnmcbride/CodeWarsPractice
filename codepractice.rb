@@ -49,3 +49,13 @@ end
 
 # however in Ruby its possible just to ask number.even?
 
+# 7. Find the smallest integer in the array
+def find_smallest_int(arr)
+  arr.sort.first
+end
+
+# or arr.min would work 
+
+
+
+

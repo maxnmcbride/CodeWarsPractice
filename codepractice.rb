@@ -56,6 +56,13 @@ end
 
 # or arr.min would work 
 
+# 8. Basic Mathematical Operations
+def basic_op(operator, value1, value2)
+  value1.public_send(operator, value2)
+end
+
+# or value1.method(operator).(value2) or value1.send(operator, value2)
+
 
 
 

@@ -87,6 +87,13 @@ def is_palindrome str
   str.downcase === str.downcase.reverse ? true : false
 end
 
+# 13. Counting sheep...
+def countSheeps array
+  array.count(true)
+end
+
+# the .count method checks for presence of an element in an array and returns an integer
+
 
 
 

@@ -246,3 +246,18 @@ Note: Don't worry, all inputs will be strings, and every string is a perfectly v
 
 Write a function that checks if a given string (case insensitive) is a palindrome.
 
+13. Counting sheep...
+
+Consider an array/list of sheep where some sheep may be missing from their place. We need a function that counts the number of sheep present in the array (true means present).
+
+For example,
+
+[true,  true,  true,  false,
+  true,  true,  true,  true ,
+  true,  false, true,  false,
+  true,  false, false, true ,
+  true,  true,  true,  true ,
+  false, false, true,  true]
+The correct answer would be 17.
+
+Hint: Don't forget to check for bad values like null/undefined

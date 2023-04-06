@@ -234,3 +234,10 @@ Examples (Input ==> Output):
 Given a string of digits, you should replace any digit below 5 with '0' and any digit 5 and above with '1'. Return the resulting string.
 
 Note: input will never be an empty string
+
+11. Convert a String to a Number!
+
+Description
+We need a function that can transform a string into a number. What ways of achieving this do you know?
+
+Note: Don't worry, all inputs will be strings, and every string is a perfectly valid representation of an integral number.

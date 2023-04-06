@@ -77,4 +77,9 @@ end
 # then after .gsub() the /[0-4]/ dictates the range, and the '0' describes what is
 # to be changed
 
+# 11. Convert a String to a Number!
+def string_to_number(s)
+  s.to_i
+end
+
 

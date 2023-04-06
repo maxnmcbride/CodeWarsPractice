@@ -82,4 +82,12 @@ def string_to_number(s)
   s.to_i
 end
 
+# 12. Is it a palindrome?
+def is_palindrome str
+  str.downcase === str.downcase.reverse ? true : false
+end
+
+
+
+
 

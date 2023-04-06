@@ -68,5 +68,13 @@ def string_to_array(string)
   string.split.to_a
 end
 
+# 10. Fake Binary
+def fake_bin(s)
+  s.gsub(/[0-4]/,'0').gsub(/[5-9]/, '1')
+end
+
+# The way this is operating is by using gsub. g = global, sub = substitution
+# then after .gsub() the /[0-4]/ dictates the range, and the '0' describes what is
+# to be changed
 
 

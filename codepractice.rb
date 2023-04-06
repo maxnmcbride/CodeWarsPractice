@@ -94,6 +94,28 @@ end
 
 # the .count method checks for presence of an element in an array and returns an integer
 
+# a less efficient method, but the first one I thought of was
+def countSheeps array
+
+  count = 0
+    array.each do |ele|
+      if ele == true
+        count += 1
+      end
+    end
+    return count
+  end
+
+  # This is setting count to 0 then checking the array to 'do' for each
+  # element if the element is true to increase the counter, then
+  # return the increased count
+
+  # 14. Count by X
+  def count_by(x, n)
+    (1..n).map { |i| x * i }
+  end
+  
+
 
 
 

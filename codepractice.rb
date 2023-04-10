@@ -106,17 +106,32 @@ def countSheeps array
     return count
   end
 
-  # This is setting count to 0 then checking the array to 'do' for each
-  # element if the element is true to increase the counter, then
-  # return the increased count
+# This is setting count to 0 then checking the array to 'do' for each
+# element if the element is true to increase the counter, then
+# return the increased count
 
-  # 14. Count by X
-  def count_by(x, n)
-    (1..n).map { |i| x * i }
-  end
+# 14. Count by X
+def count_by(x, n)
+  (1..n).map { |i| x * i }
+end
   
+# 15. Jaden Casing Strings
+class String
+  def toJadenCase
+    words = self.split(" ")
+    words.map! {|word| word.capitalize }
+    jaden_string = words.join(" ")
+    return jaden_string
+  end
+end
 
-
+# the way that this functions is that the "self" refers to the class String
+# therefore, when different components of this method are called
+# we are splitting the string adding a " " space in between them.
+# Then we are mapping over the words array, and for every word we are capitalizing
+# then the new variable jaden_string is returning the words to a string with a space " " between
+# each word.
+# Finally the variable jaden_string is returned
 
 
 

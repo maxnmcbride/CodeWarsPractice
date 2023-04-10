@@ -133,5 +133,11 @@ end
 # each word.
 # Finally the variable jaden_string is returned
 
+# Much cleaner
+class String
+  def toJadenCase
+    split.map(&:capitalize).join(' ')
+  end
+end
 
 

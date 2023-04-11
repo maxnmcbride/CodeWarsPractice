@@ -140,4 +140,9 @@ class String
   end
 end
 
+# 16. Convert number to reversed array of digits
+def digitize(n)
+  n.digits
+end
 
+# converts string to an array of digits

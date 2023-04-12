@@ -145,4 +145,50 @@ def digitize(n)
   n.digits
 end
 
-# converts string to an array of digits
+# .digits converts string to an array of digits
+
+# 17. Switch it up!
+def switch_it_up(number)
+  case number
+    when 0
+      "Zero"
+    when 1
+      "One"
+    when 2
+      "Two"
+    when 3
+      "Three"
+    when 4
+      "Four"
+    when 5
+      "Five"
+    when 6
+      "Six"
+    when 7
+      "Seven"
+    when 8
+      "Eight"
+    else 
+      "Nine"
+    end
+end
+
+# this is using a switch statement
+
+# a much leaner approach is:
+def switch_it_up(number)
+  %w(Zero One Two Three Four Five Six Seven Eight Nine)[number]
+end
+
+# The method takes an integer argument called number. 
+# The method uses the %w() syntax to create an array of strings 
+# containing the words for the numbers from 0 to 9. %w() is a 
+# shorthand syntax for creating an array of strings, where 
+# whitespace is used to separate the elements.
+
+# The method then uses the square bracket notation ([]) to return 
+# the element of the array at the index specified by the number 
+# argument. Since arrays in Ruby are zero-indexed, the string 
+# at index 0 will be "Zero", the string at index 1 will be 
+# "One", and so on.
+

@@ -286,3 +286,12 @@ Your task is to convert strings to how they would be written by Jaden Smith. The
 Convert number to reversed array of digits
 Given a random non-negative number, you have to return the digits of this number within an array in reverse order.
 
+17. Switch it up!
+
+When provided with a number between 0-9, return it in words.
+
+Input :: 1
+
+Output :: "One".
+
+If your language supports it, try using a switch statement.

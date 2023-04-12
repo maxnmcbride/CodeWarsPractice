@@ -192,3 +192,12 @@ end
 # at index 0 will be "Zero", the string at index 1 will be 
 # "One", and so on.
 
+# 18. Century From Year
+
+def century(year)
+  ( year / 100.0 ).ceil
+end
+
+# this is a clean and elegant solution as it divides the year
+# i.e. 1 through 100/100.0 = .01 through 1 .ceil rounds it up to 1
+# 101/100.0 =1.01 .ceil rounds up to 2

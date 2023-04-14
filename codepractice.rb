@@ -201,3 +201,16 @@ end
 # this is a clean and elegant solution as it divides the year
 # i.e. 1 through 100/100.0 = .01 through 1 .ceil rounds it up to 1
 # 101/100.0 =1.01 .ceil rounds up to 2
+
+# 19. List Filtering
+
+def filter_list(l)
+  # return a new list with the strings filtered out
+  l.select {|item| item.is_a? Integer}
+end
+
+# conversely
+def filter_list(l)
+  l.reject { |x| x.is_a? String }
+end
+# also works!

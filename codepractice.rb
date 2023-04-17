@@ -214,3 +214,8 @@ def filter_list(l)
   l.reject { |x| x.is_a? String }
 end
 # also works!
+
+# 20. Keep up the hoop
+def hoop_count n
+  n >= 10 ? "Great, now move on to tricks" : "Keep at it until you get it"
+end

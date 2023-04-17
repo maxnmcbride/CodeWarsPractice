@@ -322,3 +322,9 @@ Write a program where Alex can input (n) how many times the hoop goes round and 
 
 If Alex gets 10 or more hoops, return the string "Great, now move on to tricks".
 If he doesn't get 10 hoops, return the string "Keep at it until you get it".
+
+21. Set the alarm
+
+Write a function named setAlarm which receives two parameters. The first parameter, employed, is true whenever you are employed and the second parameter, vacation is true whenever you are on vacation.
+
+The function should return true if you are employed and not on vacation (because these are the circumstances under which you need to set an alarm). It should return false otherwise. 

@@ -219,3 +219,16 @@ end
 def hoop_count n
   n >= 10 ? "Great, now move on to tricks" : "Keep at it until you get it"
 end
+
+# 21. Set the alarm
+
+def set_alarm(employed, vacation)
+  # Your code here
+  if employed == vacation
+    false
+  elsif (employed == false) && (vacation == true)
+    false
+  else
+    true
+  end
+end

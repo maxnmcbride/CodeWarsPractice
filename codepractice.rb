@@ -232,3 +232,14 @@ def set_alarm(employed, vacation)
     true
   end
 end
+
+# the best option for this would, however be 
+
+def set_alarm(employed, vacation)
+  employed && !vacation
+end
+
+# 22. Twice as old
+def twice_as_old(dad, son)
+  (dad - son * 2).abs
+end

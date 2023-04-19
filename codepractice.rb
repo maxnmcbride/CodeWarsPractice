@@ -243,3 +243,20 @@ end
 def twice_as_old(dad, son)
   (dad - son * 2).abs
 end
+
+# 23. Grasshopper - Grade book
+def get_grade(s1, s2, s3)
+  average = (s1 + s2 + s3)/3
+  case average
+    when 90..100
+    'A'
+    when 80...90
+    'B'
+    when 70...80
+    'C'
+    when 60...70
+    'D'
+    else
+    'F'
+    end
+end

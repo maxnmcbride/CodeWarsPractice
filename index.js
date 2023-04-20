@@ -166,7 +166,17 @@ function twoSum(nums, target) {
   }
 }
 
+// this was written by ChatGPT I am actually not sure of how to handle this
 
+function twoSum(nums, target) {
+  for (let i = 0; i < nums.length - 1; i++) {
+    for (let j = i + 1; j < nums.length; j++) {
+      if (nums[i] + nums[j] === target) {
+        return [i, j];
+      }
+    }
+  }
+}
 
 
 

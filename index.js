@@ -141,6 +141,14 @@ function simpleMultiplication(number) {
 
 // simpleMultiplication = number => ( number % 2 === 0 ? number * 8 : number * 9 ) 
 
+// 21. Find the smallest integer in the array
+class SmallestIntegerFinder {
+  findSmallestInt(args) {
+    return args.sort((a,b)=>a-b)[0];
+  }
+}
+
+
 
 
 

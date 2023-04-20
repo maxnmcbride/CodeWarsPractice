@@ -148,6 +148,12 @@ class SmallestIntegerFinder {
   }
 }
 
+// 22. Beginner Series #4 Cockroach
+function cockroachSpeed(s) {
+  let cm = (s/0.036)
+  return Math.floor(cm)
+}
+
 
 
 

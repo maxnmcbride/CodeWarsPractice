@@ -260,3 +260,13 @@ def get_grade(s1, s2, s3)
     'F'
     end
 end
+
+# 24. Vowel Count
+def get_count(input_str)
+  vowels = "aeiou"
+  count = 0
+  input_str.each_char do |char|
+    count += 1 if vowels.include?(char)
+  end
+  count
+end

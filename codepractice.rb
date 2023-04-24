@@ -270,3 +270,8 @@ def get_count(input_str)
   end
   count
 end
+
+# and even more sleek version looks like:
+def getCount(inputStr)
+  inputStr.count("aeiou")
+end

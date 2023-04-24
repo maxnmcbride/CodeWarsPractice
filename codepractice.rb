@@ -275,3 +275,8 @@ end
 def getCount(inputStr)
   inputStr.count("aeiou")
 end
+
+# 25. What is between?
+def between(a, b)
+(a..b).to_a
+end

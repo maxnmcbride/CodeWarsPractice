@@ -389,3 +389,9 @@ Return the number (count) of vowels in the given string.
 We will consider a, e, i, o, u as vowels for this Kata (but not y).
 
 The input string will only consist of lower case letters and/or spaces.
+
+25. What is Between?
+
+Complete the function that takes two integers (a, b, where a < b) and return an array of all integers between the input parameters, including them.
+
+

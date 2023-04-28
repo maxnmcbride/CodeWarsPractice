@@ -296,3 +296,8 @@ end
 def move (position, roll)
   (roll*2) + position
 end
+
+# 28. Sum The Strings
+def sum_str(a, b)
+  (a.to_i + b.to_i).to_s
+end

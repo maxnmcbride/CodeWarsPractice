@@ -280,3 +280,15 @@ end
 def between(a, b)
 (a..b).to_a
 end
+
+# 26. Regex validate PIN code
+def validate_pin(pin)
+  pin.match? /\A\d{4}(\d{2})?\z/
+end
+
+# this is what is known as a regular expression...WTF
+# my solution was closer to the one below, but I did not get it to actually function
+
+def validate_pin(pin)
+  (pin.length == 4 || pin.length == 6) && pin.count("0-9") == pin.length
+end

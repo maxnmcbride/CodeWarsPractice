@@ -288,7 +288,11 @@ end
 
 # this is what is known as a regular expression...WTF
 # my solution was closer to the one below, but I did not get it to actually function
-
 def validate_pin(pin)
   (pin.length == 4 || pin.length == 6) && pin.count("0-9") == pin.length
+end
+
+# 27. Grasshopper - Terminal game move function
+def move (position, roll)
+  (roll*2) + position
 end

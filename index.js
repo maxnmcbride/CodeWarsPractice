@@ -178,6 +178,16 @@ function twoSum(nums, target) {
   }
 }
 
+// 24. Sum Arrays
+function sum (numbers) {
+  if (numbers.length == 0){
+    return 0
+    } 
+  let total = 0;
+  numbers.map((i) => {total += i})
+  return total;
+};
+
 
 
 

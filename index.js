@@ -247,7 +247,22 @@ function likes(names) {
 // 29. Grasshopper - Personalized Message
 const greet = (name, owner) => name === owner ? 'Hello boss' : 'Hello guest'
 
+// 30. Replace With Alphabet Position
+function alphabetPosition(text) {
+  let result = "";
+  let alphabet = 'abcdefghijklmnopqrstuvwxyz';
 
+  text = text.toLowerCase();
+
+  for (let i = 0; i < text.length; i++) {
+    let char = text.charAt(i);
+    let position = alphabet.indexOf(char) + 1;
+    
+    if (position > 0) {
+      result += position + " ";
+    }
+  }
+  result = result.trim();
 
 
 

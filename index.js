@@ -124,15 +124,15 @@ function makeNegative(num) {
 
 // 18. Opposite Number
 function opposite(number) {
-  return(number * -1);
+  return (number * -1);
 }
 
 // 19. Beginner - Reduce but Grow
-grow = x => (x.reduce((prev , curr) => prev * curr));
+grow = x => (x.reduce((prev, curr) => prev * curr));
 
 // 20. Simple multiplication
 function simpleMultiplication(number) {
-  if ( number % 2 === 0 ) {
+  if (number % 2 === 0) {
     return number * 8
   } else {
     return number * 9
@@ -144,13 +144,13 @@ function simpleMultiplication(number) {
 // 21. Find the smallest integer in the array
 class SmallestIntegerFinder {
   findSmallestInt(args) {
-    return args.sort((a,b)=>a-b)[0];
+    return args.sort((a, b) => a - b)[0];
   }
 }
 
 // 22. Beginner Series #4 Cockroach
 function cockroachSpeed(s) {
-  let cm = (s/0.036)
+  let cm = (s / 0.036)
   return Math.floor(cm)
 }
 
@@ -179,12 +179,12 @@ function twoSum(nums, target) {
 }
 
 // 24. Sum Arrays
-function sum (numbers) {
-  if (numbers.length == 0){
+function sum(numbers) {
+  if (numbers.length == 0) {
     return 0
-    } 
+  }
   let total = 0;
-  numbers.map((i) => {total += i})
+  numbers.map((i) => { total += i })
   return total;
 };
 
@@ -196,6 +196,34 @@ function sum(numbers) {
 // 25. Grasshopper - Debug sayHello
 function sayHello(name) {
   return 'Hello, ' + name
+}
+
+const sayHello = name => `Hello, ${name}`;
+
+// 26. Split Strings
+function solution(str) {
+  let pairs = [];
+
+  for (let i = 0; i < str.length; i += 2) {
+    let pair = str.slice(i, i + 2);
+
+    if (pair.length === 1) {
+      pair += '_';
+    }
+    pairs.push(pair);
+  }
+  return pairs;
+}
+
+// 27. Transportation on vacation
+function rentalCarCost(d) {
+  if (d >= 7) {
+    return (d * 40) - 50
+  } else if (d >= 3 && d < 7){
+    return(d * 40) - 20
+  } else {
+    return (d * 40)
+  }
 }
 
 

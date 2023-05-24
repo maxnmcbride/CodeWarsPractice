@@ -200,6 +200,10 @@ What We're Testing
 We're testing basic loops and math operations. This is for beginners who are just learning loops and math operations.
 Advanced users may find this extremely easy and can easily write this in one line.
 
+25. Grasshopper - Debug sayHello
+
+Debugging sayHello function
+The starship Enterprise has run into some problem when creating a program to greet everyone as they come aboard. It is your job to fix the code and get the program working again!
 _________________________________________
 Ruby
 

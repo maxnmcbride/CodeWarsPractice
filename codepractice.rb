@@ -283,7 +283,7 @@ end
 
 # 26. Regex validate PIN code
 def validate_pin(pin)
-  pin.match? /\A\d{4}(\d{2})?\z/
+  pin.match? /\A\d{4}(\d2})?\z/
 end
 
 # this is what is known as a regular expression...WTF

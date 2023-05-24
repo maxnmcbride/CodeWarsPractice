@@ -188,6 +188,17 @@ function sum (numbers) {
   return total;
 };
 
+// another option is reduce as seen below
+function sum(numbers) {
+  return numbers.reduce((a, b) => a + b, 0);
+}
+
+// 25. Grasshopper - Debug sayHello
+function sayHello(name) {
+  return 'Hello, ' + name
+}
+
+
 
 
 

@@ -277,7 +277,9 @@ function alphabetPosition(text) {
     }
     return true;
   }
-  
+
+// 32. Parse nice int from char problem
+const getAge = (inputString) => parseInt(inputString)
 
 
 

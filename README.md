@@ -257,7 +257,7 @@ alphabetPosition("The sunset sets at twelve o' clock.")
 Should return "20 8 5 19 21 14 19 5 20 19 5 20 19 1 20 20 23 5 12 22 5 15 3 12 15 3 11" ( as a string )
 
 31. Is a number prime?
- 
+
 Define a function that takes an integer argument and returns a logical value true or false depending on if the integer is a prime.
 
 Per Wikipedia, a prime number ( or a prime ) is a natural number greater than 1 that has no positive divisors other than 1 and itself.
@@ -266,6 +266,14 @@ Requirements
 You can assume you will be given an integer input.
 You can not assume that the integer will be only positive. You may be given negative numbers as well ( or 0 ).
 NOTE on performance: There are no fancy optimizations required, but still the most trivial solutions might time out. Numbers go up to 2^31 ( or similar, depending on language ). Looping all the way up to n, or n/2, will be too slow.
+
+32. Parse nice int from char problem
+
+You ask a small girl,"How old are you?" She always says, "x years old", where x is a random number between 0 and 9.
+
+Write a program that returns the girl's age (0-9) as an integer.
+
+Assume the test input string is always a valid string. For example, the test input may be "1 year old" or "5 years old". The first character in the string is always a number.
 _________________________________________
 Ruby
 

@@ -248,6 +248,7 @@ function likes(names) {
 const greet = (name, owner) => name === owner ? 'Hello boss' : 'Hello guest'
 
 // 30. Replace With Alphabet Position
+
 function alphabetPosition(text) {
   let result = "";
   let alphabet = 'abcdefghijklmnopqrstuvwxyz';
@@ -264,7 +265,19 @@ function alphabetPosition(text) {
   }
   result = result.trim();
 
-
+  // 31. Is a number prime?
+  function isPrime(num) {
+    if (num <= 1) {
+      return false;
+    }
+    for (let i = 2; i <= Math.sqrt(num); i++) {
+      if (num % i === 0) {
+        return false;
+      }
+    }
+    return true;
+  }
+  
 
 
 

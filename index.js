@@ -285,3 +285,12 @@ const getAge = (inputString) => parseInt(inputString);
 function litres(time) {
   return Math.floor(time * .5);
 }
+
+// 34. Area or Perimeter
+const areaOrPerimeter = function(l , w) {
+  if (l === w){
+    return (l * w)
+  } else {
+    return (l * 2) + (w * 2)
+  }
+};

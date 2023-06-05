@@ -279,9 +279,9 @@ function alphabetPosition(text) {
   }
 
 // 32. Parse nice int from char problem
-const getAge = (inputString) => parseInt(inputString)
+const getAge = (inputString) => parseInt(inputString);
 
-
-
-
-
+// 33. Keep Hydrated!
+function litres(time) {
+  return Math.floor(time * .5);
+}

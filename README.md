@@ -294,6 +294,14 @@ Example(Input1, Input2 --> Output):
 3, 3 --> 9
 Note: for the purposes of this kata you will assume that it is a square if its length and width are equal, otherwise it is a rectangle.
 
+35. Reversed Strings
+
+Complete the solution so that it reverses the string passed into it.
+
+'world'  =>  'dlrow'
+'word'   =>  'drow'
+
+
 
 _________________________________________
 Ruby

@@ -294,3 +294,8 @@ const areaOrPerimeter = function(l , w) {
     return (l * 2) + (w * 2)
   }
 };
+
+// 35. Reversed Strings
+function solution(str){
+  return str.split("").reverse().join("");
+ }

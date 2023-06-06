@@ -299,3 +299,14 @@ const areaOrPerimeter = function(l , w) {
 function solution(str){
   return str.split("").reverse().join("");
  }
+
+// 36. Sum of Positive
+function positiveSum(arr) {
+  let sumPositives = 0;
+  for (let i = 0; i < arr.length; i++){
+    if (arr[i] > 0){
+      sumPositives += arr[i];
+    }
+  }
+  return sumPositives
+}

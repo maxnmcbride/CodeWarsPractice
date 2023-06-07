@@ -309,6 +309,14 @@ Example [1,-4,7,12] => 1 + 7 + 12 = 20
 
 Note: if there is nothing to sum, the sum is default to 0.
 
+37. 5 Without Numbers
+
+Write a function that always returns 5
+
+Sounds easy right? Just bear in mind that you can't use any of the following characters: 0123456789*+-/
+
+Good luck :)
+
 _________________________________________
 Ruby
 

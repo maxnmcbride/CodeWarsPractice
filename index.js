@@ -310,3 +310,10 @@ function positiveSum(arr) {
   }
   return sumPositives
 }
+
+// 37. Five without numbers
+function unusualFive() {
+  const five = "fffff"
+  return five.length;
+}
+

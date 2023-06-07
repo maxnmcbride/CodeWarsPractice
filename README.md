@@ -317,6 +317,19 @@ Sounds easy right? Just bear in mind that you can't use any of the following cha
 
 Good luck :)
 
+38. Multiplication Table
+
+Your task, is to create N×N multiplication table, of size provided in parameter.
+
+For example, when given size is 3:
+
+1 2 3
+2 4 6
+3 6 9
+For the given example, the return value should be:
+
+[[1,2,3],[2,4,6],[3,6,9]]
+
 _________________________________________
 Ruby
 

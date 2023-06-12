@@ -329,3 +329,8 @@ multiplicationTable = function(size) {
   }
   return table;
 }
+
+// 39. Function 2 - squaring an argument
+function square (num) {
+  return num * num
+}

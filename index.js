@@ -336,23 +336,26 @@ function alphabetPosition(text) {
   }
 
   // 40. Super Duper Easy
-  function problem(x){
+  function problem(x) {
     return typeof x == 'string' ? 'Error' : (x * 50 + 6);
   }
 
-// 41. What's the real floor?
-function getRealFloor(n) {
-  if (n <= 0) {
-    return n;
-  } else if (n >=1 && n <= 12) {
-    return n - 1;
-  } else if (n >= 13) {
-    return n - 2;
-  } 
+  // 41. What's the real floor?
+  function getRealFloor(n) {
+    if (n <= 0) {
+      return n;
+    } else if (n >= 1 && n <= 12) {
+      return n - 1;
+    } else if (n >= 13) {
+      return n - 2;
+    }
   }
 
   // 42. Grasshopper - Messi goals function
 
-  function goals (laLigaGoals, copaDelReyGoals, championsLeagueGoals) {
+  function goals(laLigaGoals, copaDelReyGoals, championsLeagueGoals) {
     return laLigaGoals + copaDelReyGoals + championsLeagueGoals
-    }
+  }
+
+  // 43. Sort Numbers
+  const solution = nums => (nums === null) ? [] : nums.sort((a, b) => a - b)

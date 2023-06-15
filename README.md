@@ -348,6 +348,22 @@ With the 1st floor being replaced by the ground floor and the 13th floor being r
 
 Basements (negatives) stay the same as the universal level.
 
+42. Grasshopper - Messi goals function
+
+Messi goals function
+Messi is a soccer player with goals in three leagues:
+
+LaLiga
+Copa del Rey
+Champions
+Complete the function to return his total number of goals in all three leagues.
+
+Note: the input will always be valid.
+
+For example:
+
+5, 10, 2  -->  17
+
 _________________________________________
 Ruby
 

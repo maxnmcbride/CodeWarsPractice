@@ -350,3 +350,9 @@ function getRealFloor(n) {
     return n - 2;
   } 
   }
+
+  // 42. Grasshopper - Messi goals function
+
+  function goals (laLigaGoals, copaDelReyGoals, championsLeagueGoals) {
+    return laLigaGoals + copaDelReyGoals + championsLeagueGoals
+    }

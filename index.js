@@ -219,8 +219,8 @@ function solution(str) {
 function rentalCarCost(d) {
   if (d >= 7) {
     return (d * 40) - 50
-  } else if (d >= 3 && d < 7){
-    return(d * 40) - 20
+  } else if (d >= 3 && d < 7) {
+    return (d * 40) - 20
   } else {
     return (d * 40)
   }
@@ -258,7 +258,7 @@ function alphabetPosition(text) {
   for (let i = 0; i < text.length; i++) {
     let char = text.charAt(i);
     let position = alphabet.indexOf(char) + 1;
-    
+
     if (position > 0) {
       result += position + " ";
     }
@@ -278,59 +278,64 @@ function alphabetPosition(text) {
     return true;
   }
 
-// 32. Parse nice int from char problem
-const getAge = (inputString) => parseInt(inputString);
+  // 32. Parse nice int from char problem
+  const getAge = (inputString) => parseInt(inputString);
 
-// 33. Keep Hydrated!
-function litres(time) {
-  return Math.floor(time * .5);
-}
-
-// 34. Area or Perimeter
-const areaOrPerimeter = function(l , w) {
-  if (l === w){
-    return (l * w)
-  } else {
-    return (l * 2) + (w * 2)
+  // 33. Keep Hydrated!
+  function litres(time) {
+    return Math.floor(time * .5);
   }
-};
 
-// 35. Reversed Strings
-function solution(str){
-  return str.split("").reverse().join("");
- }
-
-// 36. Sum of Positive
-function positiveSum(arr) {
-  let sumPositives = 0;
-  for (let i = 0; i < arr.length; i++){
-    if (arr[i] > 0){
-      sumPositives += arr[i];
+  // 34. Area or Perimeter
+  const areaOrPerimeter = function (l, w) {
+    if (l === w) {
+      return (l * w)
+    } else {
+      return (l * 2) + (w * 2)
     }
+  };
+
+  // 35. Reversed Strings
+  function solution(str) {
+    return str.split("").reverse().join("");
   }
-  return sumPositives
-}
 
-// 37. Five without numbers
-function unusualFive() {
-  const five = "fffff"
-  return five.length;
-}
-
-// 38. Multplication Table
-multiplicationTable = function(size) {
-  let table = [];
-  for (let i = 1; i <= size; i++) {
-    let row = [];
-    for (let j = 1; j <= size; j++) {
-      row.push(i * j);
+  // 36. Sum of Positive
+  function positiveSum(arr) {
+    let sumPositives = 0;
+    for (let i = 0; i < arr.length; i++) {
+      if (arr[i] > 0) {
+        sumPositives += arr[i];
+      }
     }
-    table.push(row);
+    return sumPositives
   }
-  return table;
-}
 
-// 39. Function 2 - squaring an argument
-function square (num) {
-  return num * num
-}
+  // 37. Five without numbers
+  function unusualFive() {
+    const five = "fffff"
+    return five.length;
+  }
+
+  // 38. Multplication Table
+  multiplicationTable = function (size) {
+    let table = [];
+    for (let i = 1; i <= size; i++) {
+      let row = [];
+      for (let j = 1; j <= size; j++) {
+        row.push(i * j);
+      }
+      table.push(row);
+    }
+    return table;
+  }
+
+  // 39. Function 2 - squaring an argument
+  function square(num) {
+    return num * num
+  }
+
+  // 40. Super Duper Easy
+  function problem(x){
+    return typeof x == 'string' ? 'Error' : (x * 50 + 6);
+  }

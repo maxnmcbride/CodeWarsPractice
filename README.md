@@ -333,6 +333,12 @@ For the given example, the return value should be:
 39. Function 2 - squaring an argument
 
 Now you have to write a function that takes an argument and returns the square of it.
+
+40. Super Duper Easy
+
+Make a function that returns the value multiplied by 50 and increased by 6. If the value entered is a string it should return "Error".
+
+
 _________________________________________
 Ruby
 

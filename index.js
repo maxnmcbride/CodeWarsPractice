@@ -339,3 +339,14 @@ function alphabetPosition(text) {
   function problem(x){
     return typeof x == 'string' ? 'Error' : (x * 50 + 6);
   }
+
+// 41. What's the real floor?
+function getRealFloor(n) {
+  if (n <= 0) {
+    return n;
+  } else if (n >=1 && n <= 12) {
+    return n - 1;
+  } else if (n >= 13) {
+    return n - 2;
+  } 
+  }

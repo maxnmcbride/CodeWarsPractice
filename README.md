@@ -373,6 +373,14 @@ For example:
 solution([1, 2, 10, 50, 5]); // should return [1,2,5,10,50]
 solution(null); // should return []
 
+44. Remove anchor from URL
+
+Complete the function/method so that it returns the url with anything after the anchor (#) removed.
+
+Examples
+"www.codewars.com#about" --> "www.codewars.com"
+"www.codewars.com?page=1" -->"www.codewars.com?page=1"
+
 _________________________________________
 Ruby
 

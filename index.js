@@ -359,3 +359,8 @@ function alphabetPosition(text) {
 
   // 43. Sort Numbers
   const solution = nums => (nums === null) ? [] : nums.sort((a, b) => a - b)
+
+  // 44. Remove anchor from URL
+  function removeUrlAnchor(url){
+    return url.split('#')[0];
+    }

@@ -364,3 +364,8 @@ function alphabetPosition(text) {
   function removeUrlAnchor(url){
     return url.split('#')[0];
     }
+
+    // 45. Reverse List Order
+    function reverseList(list) {
+      return list.reverse()
+    }

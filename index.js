@@ -369,3 +369,7 @@ function alphabetPosition(text) {
     function reverseList(list) {
       return list.reverse()
     }
+// 46. Name Shuffler
+function nameShuffler(str){
+  return (str.split(" ").reverse().join(" "))
+  }

@@ -389,6 +389,14 @@ Examples (Input -> Output)
 * [1, 2, 3, 4]  -> [4, 3, 2, 1]
 * [9, 2, 0, 7]  -> [7, 0, 2, 9]
 
+46. Name Shuffler
+
+Write a function that returns a string in which firstname is swapped with last name.
+
+Example(Input --> Output)
+
+"john McClane" --> "McClane john"
+
 _________________________________________
 Ruby
 

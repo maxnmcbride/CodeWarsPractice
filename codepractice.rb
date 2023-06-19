@@ -301,3 +301,8 @@ end
 def sum_str(a, b)
   (a.to_i + b.to_i).to_s
 end
+
+# 29. Descending Order
+def descending_order(n)
+  n.to_s.chars.sort.reverse.join('').to_i
+end

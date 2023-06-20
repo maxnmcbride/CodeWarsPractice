@@ -304,5 +304,5 @@ end
 
 # 29. Descending Order
 def descending_order(n)
-  n.to_s.chars.sort.reverse.join('').to_i
+  n.to_s.chars.sort.reverse.join.to_i
 end

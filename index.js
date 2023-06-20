@@ -373,3 +373,16 @@ function alphabetPosition(text) {
 function nameShuffler(str){
   return (str.split(" ").reverse().join(" "))
   }
+
+// 47. Money, Money, Money
+function calculateYears(principal, interest, tax, desired) {
+let years = 0
+
+while (principal < desired){
+  const interestGains = (principal * interest);
+  const gainsTaxed = (interestGains * tax);
+  principal += interestGains - gainsTaxed;
+  years++;
+}
+  return years;
+}

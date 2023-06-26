@@ -706,3 +706,9 @@ For example: month 2 (February), is part of the first quarter; month 6 (June), i
 Constraint:
 
 1 <= month <= 12
+
+31. Convert a Boolean to a String
+
+Implement a function which convert the given boolean value into its string representation.
+
+Note: Only valid inputs will be given.

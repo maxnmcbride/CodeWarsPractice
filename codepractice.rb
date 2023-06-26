@@ -319,3 +319,14 @@ def quarter_of(month)
     4
   end
 end
+
+# leaner solution
+def quarter_of(month)
+  (month/3.0).ceil
+end
+
+# 31. Convert a Boolean to a String
+def boolean_to_string(b)
+  return b.to_s
+end
+

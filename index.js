@@ -400,15 +400,4 @@ function finalGrade (exam, projects) {
   }
 }
 
-// 49. Quarter of the year
-def quarter_of(month)
-  if month <= 3
-    1
-  elsif month > 3 && month <= 6
-    2
-  elsif month > 6 && month <= 9
-    3
-  else
-    4
-  end
-end
+

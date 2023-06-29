@@ -437,6 +437,11 @@ This function should return a number (final grade). There are four types of fina
 90, if a grade for the exam is more than 75 and if a number of completed projects is minimum 5.
 75, if a grade for the exam is more than 50 and if a number of completed projects is minimum 2.
 0, in other cases
+
+49. Grasshopper - Terminal game combat function
+
+Create a combat function that takes the player's current health and the amount of damage recieved, and returns the player's new health. Health can't be less than 0.
+
 _________________________________________
 Ruby
 

@@ -400,4 +400,12 @@ function finalGrade (exam, projects) {
   }
 }
 
-
+// 49. Grasshopper - Terminal game combat function
+function combat(health, damage) {
+  const hp = health - damage
+  if (hp > 0){
+    return hp
+  } else {
+    return 0
+  }
+}

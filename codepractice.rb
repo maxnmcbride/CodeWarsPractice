@@ -330,3 +330,7 @@ def boolean_to_string(b)
   return b.to_s
 end
 
+# 32. Grasshopper - Messi goals function
+def goals (laLigaGoals, copaDelReyGoals, championsLeagueGoals)
+  laLigaGoals + copaDelReyGoals + championsLeagueGoals
+end

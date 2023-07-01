@@ -361,51 +361,55 @@ function alphabetPosition(text) {
   const solution = nums => (nums === null) ? [] : nums.sort((a, b) => a - b)
 
   // 44. Remove anchor from URL
-  function removeUrlAnchor(url){
+  function removeUrlAnchor(url) {
     return url.split('#')[0];
+  }
+
+  // 45. Reverse List Order
+  function reverseList(list) {
+    return list.reverse()
+  }
+  // 46. Name Shuffler
+  function nameShuffler(str) {
+    return (str.split(" ").reverse().join(" "))
+  }
+
+  // 47. Money, Money, Money
+  function calculateYears(principal, interest, tax, desired) {
+    let years = 0
+
+    while (principal < desired) {
+      const interestGains = (principal * interest);
+      const gainsTaxed = (interestGains * tax);
+      principal += interestGains - gainsTaxed;
+      years++;
     }
+    return years;
+  }
 
-    // 45. Reverse List Order
-    function reverseList(list) {
-      return list.reverse()
+  // 48. Student's Final Grade
+  function finalGrade(exam, projects) {
+    if (exam >= 90 && projects > 10) {
+      return 100
+    } else if (exam > 75 && exam < 90 && projects >= 5) {
+      return 90
+    } else if (exam > 50 && exam < 75 && projects >= 2) {
+      return 75
+    } else {
+      return 0
     }
-// 46. Name Shuffler
-function nameShuffler(str){
-  return (str.split(" ").reverse().join(" "))
   }
 
-// 47. Money, Money, Money
-function calculateYears(principal, interest, tax, desired) {
-let years = 0
-
-while (principal < desired){
-  const interestGains = (principal * interest);
-  const gainsTaxed = (interestGains * tax);
-  principal += interestGains - gainsTaxed;
-  years++;
-}
-  return years;
-}
-
-// 48. Student's Final Grade
-function finalGrade (exam, projects) {
-  if (exam >= 90 && projects > 10){
-    return 100
-  } else if ( exam > 75 && exam < 90 && projects >= 5){
-    return 90
-  } else if ( exam > 50 && exam < 75 && projects >= 2){
-    return 75
-  } else {
-    return 0
+  // 49. Grasshopper - Terminal game combat function
+  function combat(health, damage) {
+    const hp = health - damage
+    if (hp > 0) {
+      return hp
+    } else {
+      return 0
+    }
   }
-}
 
-// 49. Grasshopper - Terminal game combat function
-function combat(health, damage) {
-  const hp = health - damage
-  if (hp > 0){
-    return hp
-  } else {
-    return 0
-  }
-}
+  // 50. Is it even?
+
+  const testEven = (n) => { return n % 2 === 0 ? true : false }

@@ -454,6 +454,10 @@ Numbers may be positive or negative, integers or floats.
 
 Floats with decimal part non equal to zero are considered UNeven for this kata.
 
+51. get character from ASCII Value
+
+Write a function get_char() / getChar() which takes a number and returns the corresponding ASCII char for that value.
+
 _________________________________________
 Ruby
 

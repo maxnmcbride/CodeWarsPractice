@@ -411,5 +411,10 @@ function alphabetPosition(text) {
   }
 
   // 50. Is it even?
-
   const testEven = (n) => { return n % 2 === 0 ? true : false }
+
+  // 51. get character from ASCII Value
+
+  function getChar(c){
+    return String.fromCharCode(c)
+  }

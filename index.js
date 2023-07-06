@@ -418,3 +418,9 @@ function alphabetPosition(text) {
   function getChar(c){
     return String.fromCharCode(c)
   }
+
+  // 52. The Feast of Many Beasts
+
+  function feast(beast, dish) {
+(beast.charAt(0) === dish.charAt(0)) ? true : false
+}

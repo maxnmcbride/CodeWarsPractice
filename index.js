@@ -424,3 +424,9 @@ function alphabetPosition(text) {
   function feast(beast, dish) {
 (beast.charAt(0) === dish.charAt(0)) ? true : false
 }
+
+// 53. Complementary DNA
+function DNAStrand(dna){
+ let newStrand = dna.replace(/A/g, "t").replace(/T/g, "a").replace(/C/g, "g").replace(/G/g, "c");
+  return newStrand.toUpperCase()
+}

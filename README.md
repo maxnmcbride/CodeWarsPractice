@@ -466,6 +466,17 @@ Write a function feast that takes the animal's name and dish as arguments and re
 
 Assume that beast and dish are always lowercase strings, and that each has at least two letters. beast and dish may contain hyphens and spaces, but these will not appear at the beginning or end of the string. They will not contain numerals.
 
+53. Complementary DNA
+
+Deoxyribonucleic acid (DNA) is a chemical found in the nucleus of cells and carries the "instructions" for the development and functioning of living organisms.
+
+If you want to know more: http://en.wikipedia.org/wiki/DNA
+
+In DNA strings, symbols "A" and "T" are complements of each other, as "C" and "G". Your function receives one side of the DNA (string, except for Haskell); you need to return the other complementary side. DNA strand is never empty or there is no DNA at all (again, except for Haskell).
+
+More similar exercise are found here: http://rosalind.info/problems/list-view/ (source)
+
+Example: (input --> output)
 
 _________________________________________
 Ruby

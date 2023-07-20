@@ -430,3 +430,16 @@ function DNAStrand(dna){
  let newStrand = dna.replace(/A/g, "t").replace(/T/g, "a").replace(/C/g, "g").replace(/G/g, "c");
   return newStrand.toUpperCase()
 }
+
+// 54. Drink About
+function peopleWithAgeDrink(old) {
+  if (old < 14){
+    return 'drink toddy'
+  } else if (old >= 14 && old < 18) {
+    return 'drink coke'
+  } else if (old > 18 && old < 21) {
+    return 'drink beer'
+  } else {
+    return 'drink whisky'
+  }
+};

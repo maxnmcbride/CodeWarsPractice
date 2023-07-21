@@ -492,6 +492,10 @@ Teens under 18 old.
 Young under 21 old.
 Adults have 21 or more.
 
+55. Square(n) Sum
+
+Complete the square sum function so that it squares each number passed into it and then sums the results together.
+
 _________________________________________
 Ruby
 

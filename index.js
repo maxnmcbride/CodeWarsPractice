@@ -453,3 +453,21 @@ function squareSum(numbers){
   }
   return sum;
 }
+
+// 56. Get the middle characters 
+function getMiddle(s) {
+  const charNum = s.length
+  let half = charNum/2
+  return charNum % 2 === 0 ? ((s.charAt(half -1).concat(s.charAt(half)))) : s.charAt(half)
+}
+
+// -or-
+
+function getMiddle(s)
+{
+  let charNum = s.length
+  let half = charNum/2
+  let characters = ( s.charAt(half - 1 ) + s.charAt(half))
+  let character = (s.charAt(half))
+  return charNum % 2 === 0 ? characters : character
+}
